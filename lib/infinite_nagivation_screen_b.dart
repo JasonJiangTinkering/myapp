@@ -6,12 +6,12 @@ import 'package:flutter/material.dart';
 import 'package:myapp/jump_new_screen.dart';
 
 class InfiniteNavigationScreenB extends StatelessWidget {
-  const InfiniteNavigationScreenB({super.key});
-
+  const InfiniteNavigationScreenB({super.key, required final count});
+  
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("Infinite Screen")),
+      appBar: AppBar(title: Text("Infinite Screen B $count")),
       body: const Center(child: Text("""This is the infinite page
 Click the add button to push on another page
 """)),

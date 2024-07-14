@@ -11,7 +11,7 @@ class InfiniteNavigationScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Infinite Screen $this.count")),
+      appBar: AppBar(title: Text("Infinite Screen A $count")),
       body: const Center(child: Text("""This is the infinite page
 Click the add button to push on another page
 """)),

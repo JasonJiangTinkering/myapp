@@ -10,7 +10,7 @@ void jumpNewScreen() {
   if (aOrB) {
     Get.to(InfiniteNavigationScreen(count: counta));
   } else {
-    Get.to(const InfiniteNavigationScreenB());
+    Get.to(InfiniteNavigationScreenB(count: counta));
   }
   aOrB = !aOrB;
   return;
